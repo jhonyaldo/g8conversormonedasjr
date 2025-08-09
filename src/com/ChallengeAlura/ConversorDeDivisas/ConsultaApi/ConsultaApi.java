@@ -13,7 +13,7 @@ public class ConsultaApi {
 
     public double obtenerTasaDeCambio(String monedaBase, String monedaDestino) {
         // ▼▼▼▼▼ ¡RECUERDA REEMPLAZAR ESTA CLAVE CON TU PROPIA API KEY! ▼▼▼▼▼
-        String apiKey = "afac79416ba17e13bfa76971";
+        String apiKey = "TU_API_KEY_AQUI";
         // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + monedaBase + "/" + monedaDestino);
