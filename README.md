@@ -97,7 +97,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos sencillos pasos:
 ## 📂 Estructura del Proyecto
 
 El proyecto sigue una arquitectura limpia para separar las responsabilidades:
-
+```
 /src
 └── com/ChallengeAlura/ConversorDeDivisas
     ├── ConsultaApi/
@@ -106,7 +106,7 @@ El proyecto sigue una arquitectura limpia para separar las responsabilidades:
     │   └── Divisa.java        # -> Record para modelar los datos de la respuesta JSON.
     └── Principal/
         └── Principal.java     # -> Lógica principal, interfaz de usuario y punto de entrada.
-
+```
 ----------
 
 ## 👨‍💻 Autor
