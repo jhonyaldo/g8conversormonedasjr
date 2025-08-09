@@ -63,12 +63,9 @@ Para ejecutar este proyecto en tu entorno local, sigue estos sencillos pasos:
 
 1.  **Clonar el repositorio:**
     
-    code Bash
-    
-    downloadcontent_copyexpand_less
     
           `git clone https://github.com/jhonyaldo/g8conversormonedasjr.git
-    cd g8conversormonedasjr`
+          `cd g8conversormonedasjr`
         
     
 2.  **Abrir en tu IDE:**
@@ -77,7 +74,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos sencillos pasos:
         
 3.  **⚠️ Configurar la API Key:**
     
-    -   Este proyecto requiere una clave de la **ExchangeRate-API**. Puedes obtener una gratuita en su [sitio web](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.exchangerate-api.com%2Fsignup).
+    -   Este proyecto requiere una clave de la **ExchangeRate-API**. Puedes obtener una gratuita en su [sitio web](https://www.exchangerate-api.com).
         
     -   Abre el archivo src/com/ChallengeAlura/ConversorDeDivisas/ConsultaApi/ConsultaApi.java.
         
@@ -101,15 +98,14 @@ Para ejecutar este proyecto en tu entorno local, sigue estos sencillos pasos:
 
 El proyecto sigue una arquitectura limpia para separar las responsabilidades:
 
-      `/src
+/src
 └── com/ChallengeAlura/ConversorDeDivisas
     ├── ConsultaApi/
     │   └── ConsultaApi.java   # -> Lógica para conectar y consumir la API externa.
     ├── Divisa/
     │   └── Divisa.java        # -> Record para modelar los datos de la respuesta JSON.
     └── Principal/
-        └── Principal.java     # -> Lógica principal, interfaz de usuario y punto de entrada.`
-    
+        └── Principal.java     # -> Lógica principal, interfaz de usuario y punto de entrada.
 
 ----------
 
@@ -117,11 +113,11 @@ El proyecto sigue una arquitectura limpia para separar las responsabilidades:
 
 **Jhony A. Rodriguez Melendez**
 
--   **Correo:**  [jhonyaldo@gmail.com](https://www.google.com/url?sa=E&q=mailto%3Ajhonyaldo%40gmail.com)
+-   **Correo:**  [jhonyaldo@gmail.com](jhonyaldo@gmail.com)
     
--   **LinkedIn:**  [https://www.linkedin.com/in/jhonyrm/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fjhonyrm%2F)
+-   **LinkedIn:**  [https://www.linkedin.com/in/jhonyrm/](https://www.linkedin.com/in/jhonyrm/)
     
--   **GitHub:**  [https://github.com/jhonyaldo](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Fjhonyaldo)
+-   **GitHub:**  [https://github.com/jhonyaldo](https://github.com/jhonyaldo/)
     
 
 ----------
